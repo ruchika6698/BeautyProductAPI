@@ -111,5 +111,21 @@ namespace RepositoryLayer.Services
             }
         }
 
+        /// <summary>
+        /// Method To Get All Convserion Details.
+        /// </summary>
+        public IEnumerable<ProductModel> GetAllProduct()
+        {
+            try
+            {
+                return dbContext.ProductDetails;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
+
     }
 }

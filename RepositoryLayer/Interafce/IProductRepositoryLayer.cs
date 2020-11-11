@@ -9,6 +9,7 @@ namespace RepositoryLayer.Interafce
     {
         ProductResponse AddProduct(ProductRequestModel product);
         ProductModel DeleteProduct(int Id);
+        IEnumerable<ProductModel> GetAllProduct();
 
     }
 }
