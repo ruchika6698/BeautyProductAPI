@@ -85,5 +85,31 @@ namespace RepositoryLayer.Services
             var uploadResult = cloudinary.Upload(uploadParams);
             return uploadResult.Url.ToString();
         }
+
+        /// <summary>
+        /// Method to Add Conversion Detail to Database.
+        /// </summary>
+        /// <param name="Id"></param>
+        /// <returns>Conversion result</returns>
+        public ProductModel DeleteProduct(int Id)
+        {
+            try
+            {
+                ProductModel product = dbContext.ProductDetails.Find(Id);
+                if (product != null)
+                {
+                    //Remove Data in database
+                    dbContext.ProductDetails.Remove(product);
+                    //saves all changes in database
+                    dbContext.SaveChanges();
+                }
+                return product;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
+
     }
 }

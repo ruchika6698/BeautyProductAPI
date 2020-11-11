@@ -8,5 +8,7 @@ namespace RepositoryLayer.Interafce
     public interface IProductRepositoryLayer
     {
         ProductResponse AddProduct(ProductRequestModel product);
+        ProductModel DeleteProduct(int Id);
+
     }
 }
