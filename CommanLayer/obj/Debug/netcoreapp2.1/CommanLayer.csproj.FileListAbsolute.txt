@@ -1,0 +1,9 @@
+D:\Magic Software\ProductAPI\CommanLayer\bin\Debug\netcoreapp2.1\CommanLayer.deps.json
+D:\Magic Software\ProductAPI\CommanLayer\bin\Debug\netcoreapp2.1\CommanLayer.dll
+D:\Magic Software\ProductAPI\CommanLayer\bin\Debug\netcoreapp2.1\CommanLayer.pdb
+D:\Magic Software\ProductAPI\CommanLayer\obj\Debug\netcoreapp2.1\CommanLayer.csprojAssemblyReference.cache
+D:\Magic Software\ProductAPI\CommanLayer\obj\Debug\netcoreapp2.1\CommanLayer.AssemblyInfoInputs.cache
+D:\Magic Software\ProductAPI\CommanLayer\obj\Debug\netcoreapp2.1\CommanLayer.AssemblyInfo.cs
+D:\Magic Software\ProductAPI\CommanLayer\obj\Debug\netcoreapp2.1\CommanLayer.csproj.CoreCompileInputs.cache
+D:\Magic Software\ProductAPI\CommanLayer\obj\Debug\netcoreapp2.1\CommanLayer.dll
+D:\Magic Software\ProductAPI\CommanLayer\obj\Debug\netcoreapp2.1\CommanLayer.pdb
