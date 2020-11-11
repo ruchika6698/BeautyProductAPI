@@ -1,12 +1,12 @@
-D:\Magic Software\ProductAPI\RepositoryLayer\bin\Debug\netcoreapp2.1\RepositoryLayer.deps.json
-D:\Magic Software\ProductAPI\RepositoryLayer\bin\Debug\netcoreapp2.1\RepositoryLayer.dll
-D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.csprojAssemblyReference.cache
 D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.AssemblyInfoInputs.cache
 D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.AssemblyInfo.cs
+D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\Magic Software\ProductAPI\RepositoryLayer\bin\Debug\netcoreapp2.1\RepositoryLayer.deps.json
+D:\Magic Software\ProductAPI\RepositoryLayer\bin\Debug\netcoreapp2.1\RepositoryLayer.dll
 D:\Magic Software\ProductAPI\RepositoryLayer\bin\Debug\netcoreapp2.1\RepositoryLayer.pdb
 D:\Magic Software\ProductAPI\RepositoryLayer\bin\Debug\netcoreapp2.1\CommanLayer.dll
 D:\Magic Software\ProductAPI\RepositoryLayer\bin\Debug\netcoreapp2.1\CommanLayer.pdb
+D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.csprojAssemblyReference.cache
 D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.csproj.CopyComplete
 D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.dll
 D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.pdb
-D:\Magic Software\ProductAPI\RepositoryLayer\obj\Debug\netcoreapp2.1\RepositoryLayer.csproj.CoreCompileInputs.cache

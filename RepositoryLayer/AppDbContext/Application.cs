@@ -14,6 +14,7 @@ namespace RepositoryLayer.AppDbContext
         }
 
         public DbSet<RegisterModel> Users { get; set; }
+        public DbSet<ProductModel> ProductDetails { get; set; }
 
     }
 

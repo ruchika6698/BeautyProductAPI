@@ -10,6 +10,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
   </ItemGroup>
 
+	<ItemGroup>
+		<PackageReference Include="CloudinaryDotNet" Version="1.11.0" />
+	</ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\CommanLayer\CommanLayer.csproj" />
   </ItemGroup>
