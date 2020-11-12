@@ -112,7 +112,7 @@ namespace RepositoryLayer.Services
         }
 
         /// <summary>
-        /// Method To Get All Convserion Details.
+        /// Method To Get All Product Details.
         /// </summary>
         public IEnumerable<ProductModel> GetAllProduct()
         {
@@ -126,6 +126,9 @@ namespace RepositoryLayer.Services
             }
         }
 
+        /// <summary>
+        /// Method To Update Product details
+        /// </summary>
         public ProductResponse UpdateProductDetails(int Id, ProductRequestModel updateproductModel)
         {
             try
