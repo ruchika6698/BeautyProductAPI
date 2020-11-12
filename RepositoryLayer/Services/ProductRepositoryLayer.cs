@@ -25,7 +25,7 @@ namespace RepositoryLayer.Services
         ProductModel productModel = new ProductModel();
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="BookRL"/> class.
+        /// Initializes a new instance of the for class
         /// </summary>
         /// <param name="dbContext">It contains the object ApplicationDbContext</param>
         public ProductRepositoryLayer(Application dbContext, IConfiguration configuration)
@@ -126,6 +126,33 @@ namespace RepositoryLayer.Services
             }
         }
 
+        public ProductResponse UpdateProductDetails(int Id, ProductRequestModel updateproductModel)
+        {
+            try
+            {
+                var response = this.dbContext.ProductDetails.FirstOrDefault(value => ((value.ProductId == Id)) && ((value.IsDeleted == "No")));
+
+                if (response != null)
+                {
+                    string image = AddImage(updateproductModel);
+                    response.ProductName = updateproductModel.ProductName;
+                    response.ProductBrand = updateproductModel.ProductBrand;
+                    response.ProductDescription = updateproductModel.ProductDescription;
+                    response.Price = updateproductModel.Price;
+                    response.Image = image;
+                    response.IsDeleted = "No";
+                    this.dbContext.ProductDetails.Update(response);
+                    this.dbContext.SaveChanges();
+
+                    return Response(response);
+                }
+                return productResponse;
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message);
+            }
+        }
 
     }
 }

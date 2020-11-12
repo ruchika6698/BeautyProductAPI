@@ -3,11 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace RepositoryLayer.Interafce
+namespace BusinessLayer.Interface
 {
-    public interface IProductRepositoryLayer
+    public interface IProductBusinessLayer
     {
         ProductResponse AddProduct(ProductRequestModel product);
+
         ProductModel DeleteProduct(int Id);
         IEnumerable<ProductModel> GetAllProduct();
         ProductResponse UpdateProductDetails(int Id, ProductRequestModel updateproductModel);

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using BusinessLayer;
 using BusinessLayer.Interface;
+using BusinessLayer.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -18,6 +19,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using RepositoryLayer.AppDbContext;
+using RepositoryLayer.Interafce;
 using RepositoryLayer.Interface;
 using RepositoryLayer.Services;
 
@@ -39,6 +41,9 @@ namespace ProductAPI
 
             services.AddTransient<IUserRepositoryLayer, UserRepositoryLayer>();
             services.AddTransient<IUserBusinessLayer, UserBusinessLayer>();
+            services.AddTransient<IProductRepositoryLayer, ProductRepositoryLayer>();
+            services.AddTransient<IProductBusinessLayer, ProductBusinessLayer>();
+
 
             services.AddDbContextPool<Application>(options => options.UseSqlServer(Configuration.GetConnectionString("ProductData")));
 
@@ -104,6 +109,7 @@ namespace ProductAPI
             }
 
             app.UseHttpsRedirection();
+            app.UseAuthentication();
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ljf0OhkaUkY/07ChePhKRdAdX/Qbqdq0LI7QbjdJpF1gKbKIj630pHn2jJFq0DhVQHILY+6l+Zn3wpv6R7qPUw==",
+  "dgSpecHash": "SlN/MwKAxq1r9u2LlvhXayBwH3+VKoErPv04xTFS5BKH8STLmYm3EuYSWF/EPtalsMSUqdD0IaaDhCsNGMXz4w==",
   "success": true,
   "projectFilePath": "D:\\Magic Software\\ProductAPI\\ProductAPI\\ProductAPI\\ProductAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\AHIRE\\.nuget\\packages\\cloudinarydotnet\\1.11.0\\cloudinarydotnet.1.11.0.nupkg.sha512",
     "C:\\Users\\AHIRE\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\AHIRE\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\AHIRE\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
@@ -172,7 +173,7 @@
     "C:\\Users\\AHIRE\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\AHIRE\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\AHIRE\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\AHIRE\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\AHIRE\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\AHIRE\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\AHIRE\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
     "C:\\Users\\AHIRE\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
