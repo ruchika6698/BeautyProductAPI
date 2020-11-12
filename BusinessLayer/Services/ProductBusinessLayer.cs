@@ -17,7 +17,7 @@ namespace BusinessLayer.Services
         /// <summary>
         /// Initializes a new instance of the <see cref="productRepository"/> class.
         /// </summary>
-        /// <param name="productRepository">It contains the object IbookRepository</param>
+        /// <param name="productRepository">It contains the object IproductRepository</param>
         public ProductBusinessLayer(IProductRepositoryLayer productRepository)
         {
             this.productRepository = productRepository;
@@ -27,7 +27,7 @@ namespace BusinessLayer.Services
         {
             try
             {
-                // Call the AddBook Method of Books Repository Class
+                // Call the AddProduct Method of Books Repository Class
                 var response = this.productRepository.AddProduct(product);
                 return response;
             }
