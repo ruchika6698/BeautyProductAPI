@@ -84,9 +84,11 @@ namespace ProductAPI.Controllers
         }
 
         /// <summary>
-        ///  API for get all emplyee details
+        ///  API for get all Product details
         /// </summary>
         [HttpGet]
+//[Authorize(Roles = "Admin,User")]
+
         public ActionResult<IEnumerable<ProductModel>> GetAllProduct()
         {
             try
@@ -129,13 +131,13 @@ namespace ProductAPI.Controllers
                 if (!response.ProductId.Equals(0))
                 {
                     bool status = true;
-                    var message = "Book Updated Successfully";
+                    var message = "Product Details Updated Successfully";
                     return this.Ok(new { status, message, data = response });
                 }
                 else
                 {
                     bool status = false;
-                    var message = "BookId Not Found";
+                    var message = "Product Details Not Found";
                     return this.NotFound(new { status, message });
                 }
             }

@@ -39,6 +39,15 @@ namespace ProductAPI
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
+
             services.AddTransient<IUserRepositoryLayer, UserRepositoryLayer>();
             services.AddTransient<IUserBusinessLayer, UserBusinessLayer>();
             services.AddTransient<IProductRepositoryLayer, ProductRepositoryLayer>();
@@ -116,6 +125,7 @@ namespace ProductAPI
                 options.SwaggerEndpoint("/swagger/v1/swagger.json", "Product Portal");
                 options.RoutePrefix = "";
             });
+            app.UseCors("CorsPolicy");
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
