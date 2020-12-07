@@ -30,7 +30,7 @@ namespace Product.Controllers
         /// <summary>
         /// Method to Add User Detail
         /// </summary>
-        /// <param name="Info"></param>
+        /// <param name="Info">Register API</param>
         /// <returns> add User in database </returns>
         [HttpPost]
         public IActionResult UserRegister([FromBody] RegisterModel Info)
@@ -61,7 +61,7 @@ namespace Product.Controllers
         ///  API for Login
         /// </summary>
         /// <param name="login"> Login API</param>
-        /// <returns></returns>
+        /// <returns>Login Using username and Password</returns>
         [HttpPost]
         [Route("Login")]
         public IActionResult UserLogin(Login login)

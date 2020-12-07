@@ -23,3 +23,4 @@ D:\Magic Software\ProductAPI\ProductAPI\ProductAPI\obj\Debug\netcoreapp2.1\Produ
 D:\Magic Software\ProductAPI\ProductAPI\ProductAPI\obj\Debug\netcoreapp2.1\ProductAPI.dll
 D:\Magic Software\ProductAPI\ProductAPI\ProductAPI\obj\Debug\netcoreapp2.1\ProductAPI.pdb
 D:\Magic Software\ProductAPI\ProductAPI\ProductAPI\obj\Debug\netcoreapp2.1\ProductAPI.genruntimeconfig.cache
+D:\Magic Software\ProductAPI\ProductAPI\ProductAPI\bin\Debug\netcoreapp2.1\ProductAPI.xml

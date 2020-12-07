@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ProductAPI.Controllers.ProductController.DeleteProduct(System.Int32)">
+            <summary>
+             API for Delete data
+            </summary>
+            <param name="Id">Delete data</param>
+            <returns>delete data by ID</returns>
+        </member>
+        <member name="M:ProductAPI.Controllers.ProductController.GetAllProduct">
+            <summary>
+             API for get all Product details
+            </summary>
+        </member>
+        <member name="M:Product.Controllers.UserController.UserRegister(CommanLayer.RegisterModel)">
+            <summary>
+            Method to Add User Detail
+            </summary>
+            <param name="Info">Register API</param>
+            <returns> add User in database </returns>
+        </member>
+        <member name="M:Product.Controllers.UserController.UserLogin(CommanLayer.Login)">
+            <summary>
+             API for Login
+            </summary>
+            <param name="login"> Login API</param>
+            <returns>Login Using username and Password</returns>
+        </member>
+    </members>
+</doc>
